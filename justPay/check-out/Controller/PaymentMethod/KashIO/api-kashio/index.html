@@ -1,0 +1,91 @@
+<html>
+<body id='bod'><button type="submit" onclick="javascript:send()">call</button>
+<div id='div'>
+</div>
+</body>
+</html>
+<script type="text/javascript" language="javascript">
+
+    function send()
+    {
+
+        var ItemJSON;
+
+        ItemJSON = '[{"request_datetime": "2018-09-31T14:24:59",' +
+                '"invoice_id": "ABCD1234567890",' +
+                '"currency": "PEN",' +
+                '"amount": 1.00,' +
+                '"customer": [{"phone":"+519985555","email":"zuly.mhj@gmail.com"}]'+'}]';
+
+        URL = "https://api.kashio.net/v1/payments/invoices";
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
+        xmlhttp.open("POST", URL, false);
+        xmlhttp.setRequestHeader("Content-Type", "application/json");
+        xmlhttp.setRequestHeader('Authorization', 'Basic ' + window.btoa('sk_cert_YFPQR5ymh9nRdwebVb8Ey8:')); //in prod, you should encrypt user name and password and provide encrypted keys here instead
+        xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
+        xmlhttp.send(ItemJSON);
+        alert(xmlhttp.responseText);
+        console.log(xmlhttp);
+        }
+
+    function callbackFunction()
+    {
+
+        uri="https://api.kashio.net/v1/payments/invoices";
+        method="POST";
+        data={
+            'request_datetime':'2018-09-31',
+            'amount':1.00,
+            'currency':'PEN',
+            'invoice_id':'ABCD1234567890'
+        };
+        $.ajax({
+            url: "https://api.kashio.net/v1/payments/invoices",
+            type: 'POST',
+            contentType: "application/json",
+            accepts: "application/json",
+            cache: false,
+            dataType: 'json',
+            data: JSON.stringify({
+                'request_datetime':'2018-09-31',
+                'amount':1.00,
+                'currency':'PEN',
+                'invoice_id':'ABCD1234567890'
+            }),
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("Authorization",
+                        "Basic " + btoa("sk_cert_YFPQR5ymh9nRdwebVb8Ey8:"));
+            },
+            success: function(result){
+                debugger;
+                console.log(result);
+            },
+            error: function(jqXHR) {
+                console.log("ajax error " + jqXHR.status);
+            }
+        });
+
+         ajax = function(uri, method, data) {
+            var request = {
+                url: uri,
+                type: method,
+                contentType: "application/json",
+                accepts: "application/json",
+                cache: false,
+                dataType: 'json',
+                data: JSON.stringify(data),
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader("Authorization",
+                            "Basic " + btoa(self.username + ":" + self.password));
+                },
+                error: function(jqXHR) {
+                    console.log("ajax error " + jqXHR.status);
+                }
+            };
+            return $.ajax(request);
+        }
+    }
+</script>
+

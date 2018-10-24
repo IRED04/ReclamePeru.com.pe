@@ -1,0 +1,3 @@
+[26-Jul-2018 17:08:51 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/PaymentMethod/SafetyPay/Safetypay.php on line 349
+[26-Jul-2018 17:09:22 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/PaymentMethod/SafetyPay/Safetypay.php on line 349
+[26-Jul-2018 17:21:25 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/PaymentMethod/SafetyPay/Safetypay.php on line 458

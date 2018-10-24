@@ -1,0 +1,63 @@
+[19-Jul-2018 20:17:28 America/Chicago] PHP Fatal error:  Class 'Datos' not found in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 61
+[19-Jul-2018 20:19:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'justpay'@'localhost' (using password: YES)' in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php:12
+Stack trace:
+#0 /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php(12): PDO->__construct('mysql:host=loca...', 'justpay', 'justpay1234')
+#1 /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php(4): Conexion::conectar()
+#2 /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php(3): require_once('/home4/moodratx...')
+#3 /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php(13): require_once('/home4/moodratx...')
+#4 {main}
+  thrown in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php on line 12
+[19-Jul-2018 20:21:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'justpay'@'localhost' (using password: YES)' in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php:12
+Stack trace:
+#0 /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php(12): PDO->__construct('mysql:host=loca...', 'justpay', 'justpay1234')
+#1 /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php(4): Conexion::conectar()
+#2 /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php(3): require_once('/home4/moodratx...')
+#3 /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php(13): require_once('/home4/moodratx...')
+#4 {main}
+  thrown in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php on line 12
+[19-Jul-2018 20:21:34 America/Chicago] PHP Fatal error:  Class 'Datos' not found in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 61
+[19-Jul-2018 20:24:54 America/Chicago] PHP Fatal error:  Class 'Conexion' not found in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/cone.php on line 3
+[19-Jul-2018 20:25:33 America/Chicago] PHP Fatal error:  Call to undefined method Conexion_jp::conectar_js() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 20
+[19-Jul-2018 21:38:11 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 51
+[19-Jul-2018 21:38:53 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 51
+[19-Jul-2018 21:46:05 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 101
+[20-Jul-2018 00:28:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 40
+[20-Jul-2018 00:29:28 America/Chicago] PHP Fatal error:  Call to undefined method Datos_jp::getOperationController() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 76
+[20-Jul-2018 00:36:32 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 83
+[20-Jul-2018 00:38:45 America/Chicago] PHP Fatal error:  Call to a member function fetch() on null in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 40
+[20-Jul-2018 00:43:54 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::insert_id() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 42
+[20-Jul-2018 00:51:00 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 36
+[20-Jul-2018 00:54:54 America/Chicago] PHP Fatal error:  Call to a member function fetch() on null in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 36
+[20-Jul-2018 01:02:22 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 37
+[20-Jul-2018 01:07:18 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 38
+[20-Jul-2018 01:17:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$create' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 19
+[20-Jul-2018 01:28:53 America/Chicago] PHP Parse error:  syntax error, unexpected '$create' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 24
+[20-Jul-2018 01:29:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 40
+[20-Jul-2018 01:29:23 America/Chicago] PHP Fatal error:  Call to a member function execute() on string in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 38
+[20-Jul-2018 01:30:48 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, boolean given in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 37
+[20-Jul-2018 01:39:39 America/Chicago] PHP Warning:  mysqli_insert_id() expects parameter 1 to be mysqli, object given in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 40
+[20-Jul-2018 01:41:28 America/Chicago] PHP Warning:  mysqli_insert_id() expects exactly 1 parameter, 0 given in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 40
+[20-Jul-2018 01:44:24 America/Chicago] PHP Warning:  mysqli_insert_id() expects parameter 1 to be mysqli, object given in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 40
+[20-Jul-2018 01:50:41 America/Chicago] PHP Fatal error:  Call to undefined method PDO::LAST_INSERT_ID() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 54
+[20-Jul-2018 01:51:05 America/Chicago] PHP Fatal error:  Call to undefined method PDO::las_insert_id() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 54
+[20-Jul-2018 01:54:13 America/Chicago] PHP Fatal error:  Call to undefined method PDO::las_insert_id() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 54
+[20-Jul-2018 01:54:42 America/Chicago] PHP Fatal error:  Call to undefined method PDO::insert_id() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 54
+[20-Jul-2018 01:55:32 America/Chicago] PHP Fatal error:  Call to undefined method PDO::insert_id() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 54
+[20-Jul-2018 02:02:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$Insertar' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 55
+[20-Jul-2018 02:09:18 America/Chicago] PHP Parse error:  syntax error, unexpected '$cone' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 75
+[20-Jul-2018 02:12:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 88
+[24-Jul-2018 11:12:55 America/Chicago] PHP Warning:  require_once(/home4/moodratx/dev.reclameperu.com.pe/justPay/Controller../Model/crud.php): failed to open stream: No such file or directory in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 13
+[24-Jul-2018 11:12:55 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home4/moodratx/dev.reclameperu.com.pe/justPay/Controller../Model/crud.php' (include_path='.:/opt/php56/lib/php') in /home4/moodratx/dev.reclameperu.com.pe/justPay/Controller/controller.php on line 13
+[24-Jul-2018 12:31:23 America/Chicago] PHP Fatal error:  Cannot redeclare Datos_jp::createNewOperation() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 76
+[24-Jul-2018 12:36:18 America/Chicago] PHP Fatal error:  Cannot redeclare Datos_jp::createNewOperation() in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 76
+[24-Jul-2018 12:39:21 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 91
+[24-Jul-2018 12:39:49 America/Chicago] PHP Parse error:  syntax error, unexpected '$consulToken' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 111
+[24-Jul-2018 12:43:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$consulToken' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 111
+[24-Jul-2018 12:44:31 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 87
+[24-Jul-2018 12:45:37 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 87
+[24-Jul-2018 12:49:24 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 87
+[24-Jul-2018 12:49:33 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 87
+[24-Jul-2018 12:50:58 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 87
+[24-Jul-2018 12:52:04 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 90
+[24-Jul-2018 12:54:06 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 90
+[24-Jul-2018 12:54:27 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/moodratx/dev.reclameperu.com.pe/justPay/Model/crud.php on line 90

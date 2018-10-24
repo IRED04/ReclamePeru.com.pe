@@ -1,0 +1,18 @@
+[23-May-2018 12:48:41 America/Chicago] PHP Strict Standards:  Non-static method Datos::getTemplereModel() should not be called statically in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 359
+[23-May-2018 12:48:41 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 377
+[23-May-2018 12:48:51 America/Chicago] PHP Strict Standards:  Non-static method Datos::getTemplereModel() should not be called statically in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 359
+[23-May-2018 12:48:51 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 377
+[23-May-2018 12:50:14 America/Chicago] PHP Strict Standards:  Non-static method Datos::getTemplereModel() should not be called statically in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 359
+[23-May-2018 12:54:02 America/Chicago] PHP Strict Standards:  Non-static method Datos::getTemplereModel() should not be called statically in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 359
+[23-May-2018 12:54:02 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 378
+[23-May-2018 12:54:35 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 378
+[23-May-2018 12:57:36 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 379
+[23-May-2018 12:59:12 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 379
+[23-May-2018 12:59:44 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 379
+[23-May-2018 13:00:36 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 379
+[23-May-2018 13:01:58 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 379
+[23-May-2018 13:02:52 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 379
+[23-May-2018 13:03:45 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 379
+[23-May-2018 13:04:51 America/Chicago] PHP Warning:  mail() expects parameter 3 to be string, array given in /home4/moodratx/dev.reclameperu.com.pe/Controller/controller.php on line 380
+[03-Jul-2018 21:27:00 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home4/moodratx/dev.reclameperu.com.pe/Model/crud.php on line 35
+[03-Jul-2018 21:27:07 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home4/moodratx/dev.reclameperu.com.pe/Model/crud.php on line 35

@@ -1,0 +1,32 @@
+[02-Jul-2018 15:48:25 America/Chicago] PHP Warning:  include(/home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules): failed to open stream: No such file or directory in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/templete.php on line 43
+[02-Jul-2018 15:48:25 America/Chicago] PHP Warning:  include(): Failed opening 'Modules/' for inclusion (include_path='.:/opt/php56/lib/php') in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/templete.php on line 43
+[02-Jul-2018 16:41:07 America/Chicago] PHP Fatal error:  Class 'ControllerBackendAdmin' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/inicio.php on line 298
+[02-Jul-2018 16:41:27 America/Chicago] PHP Fatal error:  Class 'ControllerBackendAdmin' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/inicio.php on line 298
+[02-Jul-2018 16:44:39 America/Chicago] PHP Fatal error:  Class 'conectarBkAd' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 3
+[02-Jul-2018 16:45:05 America/Chicago] PHP Fatal error:  Class 'conectarBkAd' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 3
+[02-Jul-2018 16:46:23 America/Chicago] PHP Fatal error:  Class 'ConexionBkAd' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 3
+[02-Jul-2018 16:48:31 America/Chicago] PHP Fatal error:  Class 'ConexionBkAd' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 3
+[02-Jul-2018 16:51:33 America/Chicago] PHP Fatal error:  Class 'ConexionBkAd' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 3
+[02-Jul-2018 16:52:36 America/Chicago] PHP Fatal error:  Class 'ConexionBkAd' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 3
+[02-Jul-2018 17:01:05 America/Chicago] PHP Fatal error:  Call to a member function execute() on null in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 25
+[02-Jul-2018 21:16:30 America/Chicago] PHP Strict Standards:  Non-static method ControllerBackendAdmin::getReclamosControllerBA() should not be called statically in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/inicio.php on line 308
+[02-Jul-2018 21:21:36 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/inicio.php on line 314
+[02-Jul-2018 21:54:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$key' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/inicio.php on line 322
+[10-Jul-2018 22:10:00 America/Chicago] PHP Fatal error:  Class 'paginasBkAd' not found in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 14
+[10-Jul-2018 22:10:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/index.php on line 8
+[10-Jul-2018 22:11:45 America/Chicago] PHP Warning:  include(Views/Modules/check_reclamos.php): failed to open stream: No such file or directory in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 18
+[10-Jul-2018 22:11:45 America/Chicago] PHP Warning:  include(Views/Modules/check_reclamos.php): failed to open stream: No such file or directory in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 18
+[10-Jul-2018 22:11:45 America/Chicago] PHP Warning:  include(): Failed opening 'Views/Modules/check_reclamos.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 18
+[10-Jul-2018 22:52:16 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/review_reclamo.php on line 7
+[11-Jul-2018 10:05:54 America/Chicago] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 30
+[11-Jul-2018 10:06:51 America/Chicago] PHP Warning:  Illegal string offset 'id_reclamo' in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 36
+[11-Jul-2018 10:06:51 America/Chicago] PHP Fatal error:  Only variables can be passed by reference in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 36
+[11-Jul-2018 10:07:20 America/Chicago] PHP Fatal error:  Undefined class constant 'STR' in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 36
+[11-Jul-2018 10:07:55 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on null in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 39
+[11-Jul-2018 10:08:23 America/Chicago] PHP Fatal error:  Function name must be a string in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 30
+[11-Jul-2018 10:10:10 America/Chicago] PHP Fatal error:  Function name must be a string in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 30
+[11-Jul-2018 10:10:41 America/Chicago] PHP Fatal error:  Function name must be a string in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 32
+[11-Jul-2018 10:10:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 32
+[11-Jul-2018 10:11:11 America/Chicago] PHP Fatal error:  Function name must be a string in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 32
+[11-Jul-2018 15:43:44 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Controller/controller.php on line 39
+[31-Jul-2018 01:16:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$insertMsage' (T_VARIABLE) in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 55
