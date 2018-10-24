@@ -1,4 +1,0 @@
-[11-Jul-2018 14:35:16 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/Secondary/update_reclamo.php on line 3
-[11-Jul-2018 15:42:41 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Views/Modules/Secondary/update_reclamo.php on line 3
-[31-Jul-2018 01:16:34 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::close() in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 59
-[31-Jul-2018 01:18:22 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::close() in /home4/moodratx/dev.reclameperu.com.pe/BackendAdmin/Model/crud.php on line 59
